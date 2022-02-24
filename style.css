@@ -736,7 +736,7 @@ display: none;
 
     .header .navbar{
         position: absolute;
-        top:115%; right: 2rem;
+        top:115%; left: 2rem;
         border-radius: .5rem;
         box-shadow: var(--box-shadow);
         width: 30rem;
