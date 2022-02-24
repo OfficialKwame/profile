@@ -545,14 +545,14 @@ section:nth-child(odd){
 
 
 .projects .box-container{
-   
-
-    display: grid;
+    display: inline-flex;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     gap:2rem;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    margin-bottom: 5rem;
+    padding: 3rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+
 }
 
 
@@ -565,7 +565,7 @@ section:nth-child(odd){
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     padding: 1rem;
-    width: 100%;
+    width: 30%;
 }
 
 
@@ -867,6 +867,14 @@ display: none;
     }
 
 
+    projects .box-container .box{
+    display: inline;
+    gap:2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+    }
 
   
 
