@@ -549,7 +549,7 @@ section:nth-child(odd){
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     gap:2rem;
     padding: 3rem;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
 
