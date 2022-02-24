@@ -566,6 +566,7 @@ section:nth-child(odd){
     border-radius: .5rem;
     padding: 1rem;
     width: 30%;
+  
 }
 
 
@@ -573,6 +574,7 @@ section:nth-child(odd){
     height: 20rem;
     overflow:hidden;
     border-radius: .5rem;
+    
   
 }
 
@@ -727,10 +729,16 @@ display: none;
 
 
 .projects .box-container{
-  display:flex;
+  display:inline-block;
 
 }
 
+ .projects .box-container .box{
+     width: 90%;
+     margin: 5rem;
+    
+
+ }
 
         
 }
